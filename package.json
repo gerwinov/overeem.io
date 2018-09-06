@@ -9,12 +9,15 @@
   },
   "dependencies": {
     "@gerwinov/vue-project-timeline": "^0.1.3",
+    "tailwindcss": "^0.6.5",
     "vue": "^2.5.17"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.0.1",
     "@vue/cli-plugin-babel": "^3.0.1",
     "@vue/cli-plugin-eslint": "^3.0.1",
     "@vue/cli-service": "^3.0.1",
+    "postcss-cli": "^6.0.0",
     "vue-template-compiler": "^2.5.17"
   },
   "eslintConfig": {
@@ -29,11 +32,6 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
     }
   },
   "browserslist": [

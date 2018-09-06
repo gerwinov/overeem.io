@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
     <VueProjectTimeline :projects="projects" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
 import VueProjectTimeline from '@gerwinov/vue-project-timeline';
 
 export default {
   name: 'app',
+
+  components: {
+    VueProjectTimeline
+  },
 
   data () {
     return {
@@ -20,14 +21,14 @@ export default {
           title: 'Ebicus',
           startYear: 2010,
           endYear: 2014
+        },
+        {
+          title: 'Foryard',
+          startYear: 2013,
+          endYear: 2018
         }
       ]
     }
-  },
-
-  components: {
-    HelloWorld,
-    VueProjectTimeline
   }
 }
 </script>
@@ -42,3 +43,5 @@ export default {
   margin-top: 60px;
 }
 </style>
+
+<style src="./styles/main.css"></style>
