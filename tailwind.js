@@ -226,7 +226,9 @@ module.exports = {
       'Liberation Mono',
       'Courier New',
       'monospace',
-    ]
+    ],
+    'oxygen': 'Oxygen',
+    'source': 'Source Sans Pro'
   },
 
 
