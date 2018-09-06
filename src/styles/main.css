@@ -61,9 +61,9 @@
  * @import "utilities/skew-transforms";
  */
 h1, h2, h3 {
-  @apply font-oxygen font-normal
+  @apply font-sans font-oxygen font-normal
 }
 
 p {
-  @apply font-source
+  @apply font-sans font-source
 }
