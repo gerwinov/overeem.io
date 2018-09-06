@@ -2,16 +2,32 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <VueProjectTimeline :projects="projects" />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import HelloWorld from './components/HelloWorld.vue';
+import VueProjectTimeline from '@gerwinov/vue-project-timeline';
 
 export default {
   name: 'app',
+
+  data () {
+    return {
+      projects: [
+        {
+          title: 'Ebicus',
+          startYear: 2010,
+          endYear: 2014
+        }
+      ]
+    }
+  },
+
   components: {
-    HelloWorld
+    HelloWorld,
+    VueProjectTimeline
   }
 }
 </script>
