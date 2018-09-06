@@ -44,6 +44,8 @@ View the full documentation at https://tailwindcss.com.
 */
 
 let colors = {
+  'oio-yellow': '#F7B93A',
+
   'transparent': 'transparent',
 
   'black': '#22292f',
@@ -261,6 +263,8 @@ module.exports = {
     '3xl': '1.875rem',  // 30px
     '4xl': '2.25rem',   // 36px
     '5xl': '3rem',      // 48px
+    '6xl': '3.5rem',    // x
+    '8xl': '4.5rem'     // 72px
   },
 
 
@@ -534,6 +538,7 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    '128': '32rem',
     'full': '100%',
     'screen': '100vh'
   },
