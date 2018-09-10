@@ -31,7 +31,7 @@
           “Ik ben een all-round developer. Ik ben analytisch sterk, kan zeer snel nieuwe kennis opdoen en beschik over goede communicatieve vaardigheden. Hierdoor heb ik in veel verschillende projecten een waardevolle bijdrage kunnen leveren. Ik hou van werken aan technisch complexe issues en doe dit het liefst samen met een team.”
         </p>
       </div>
-      <div class="flex self-start justify-around items-center w-full sm:w-2/5 bg-oio-brown p-8 sm:p-4 md:p-6 lg:p-8">
+      <div class="flex self-start justify-around items-center w-full sm:w-2/5 bg-oio-brown py-8 sm:py-4 md:py-6 lg:py-8">
         <a href="tel:+31611475498">
           <img class="h-10 sm:h-8 md:h-10 lg:h-12" src="@/assets/img/icons/whatsapp.svg" alt="whatsapp">
         </a>
@@ -46,7 +46,7 @@
         </a>
       </div>
     </div>
-    <div class="px-8 sm:px-6 md:px-10 mt-12 mb-4">
+    <div class="px-8 sm:px-6 md:px-10 mt-12 lg:mt-24 mb-4">
       <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-oio-black">Werkervaring en opleidingen</h1>
     </div>
     <VueProjectTimeline :projects="projects" />
