@@ -1,107 +1,107 @@
 <template>
   <div id="app" >
     <div class="flex flex-wrap">
-      <div class="flex w-full sm:w-1/2 h-96 md:h-128 sm:justify-center bg-oio-yellow px-8 sm:px-0">
+      <div class="flex w-full sm:w-1/2 h-96 lg:h-128 bg-oio-yellow px-8 sm:px-6 md:px-10">
         <div class="flex flex-col justify-between py-10">
           <div>
-            <h1 class="text-white text-4xl sm:text-3xl md:text-4xl lg:text-6xl xl:text-8xl font-bold">Gerwin Overeem</h1>
-            <h2 class="text-white text-3xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-source font-light">Frontend developer</h2>
+            <h1 class="text-white text-3xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">Gerwin Overeem</h1>
+            <h2 class="text-white text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-source font-light">Frontend developer</h2>
           </div>
           <div>
             <div class="flex items-center my-4">
-              <img class="h-8 sm:h-6 md:h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/location.svg" alt="location_marker">
-              <h3 class="text-white text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-source ml-6">Amsterdam</h3>
+              <img class="h-8 sm:h-6 md:h-8 lg:h-10 xl:h-10" src="@/assets/img/icons/location.svg" alt="location_marker">
+              <h3 class="text-white text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-source ml-6">Amsterdam</h3>
             </div>
             <div class="flex items-center">
-              <img class="h-8 sm:h-6 md:h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/cake.svg" alt="birthday_cake">
-              <h3 class="text-white text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-source ml-5 lg:ml-4">10 december 1989</h3>
+              <img class="h-8 sm:h-6 md:h-8 lg:h-10 xl:h-10" src="@/assets/img/icons/cake.svg" alt="birthday_cake">
+              <h3 class="text-white text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-source ml-5 lg:ml-4">10 december 1989</h3>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="flex w-full sm:w-1/2 h-96 md:h-128 bg-oio-banner">
+      <div class="flex w-full sm:w-1/2 h-96 lg:h-128 bg-oio-banner">
         <!-- CSS Background loaded here -->
       </div>
     </div>
 
     <div class="flex flex-wrap-reverse sm:flex-wrap">
       <div class="flex w-full sm:w-3/5 py-8 sm:py-4 md:py-6 lg:py-8 px-8 sm:px-6 md:px-10">
-        <p class="text-2xl sm:text-xl lg:text-2xl font-source font-light italic leading-tight">
+        <p class="text-xl sm:text-lg lg:text-xl xl:text-2xl font-source font-light italic leading-normal max-w-lg">
           “Ik ben een all-round developer. Ik ben analytisch sterk, kan zeer snel nieuwe kennis opdoen en beschik over goede communicatieve vaardigheden. Hierdoor heb ik in veel verschillende projecten een waardevolle bijdrage kunnen leveren. Ik hou van werken aan technisch complexe issues en doe dit het liefst samen met een team.”
         </p>
       </div>
       <div class="flex self-start justify-around items-center w-full sm:w-2/5 bg-oio-brown py-8 sm:py-4 md:py-6 lg:py-8">
         <a href="tel:+31611475498">
-          <img class="h-10 sm:h-8 md:h-10 lg:h-12" src="@/assets/img/icons/whatsapp.svg" alt="whatsapp">
+          <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/whatsapp.svg" alt="whatsapp">
         </a>
         <a href="mailto:gerwin@overeem.io">
-          <img class="h-10 sm:h-8 md:h-10 lg:h-12" src="@/assets/img/icons/email.svg" alt="email">
+          <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/email.svg" alt="email">
         </a>
         <a href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow">
-          <img class="h-10 sm:h-8 md:h-10 lg:h-12" src="@/assets/img/icons/linkedin.svg" alt="linkedin">
+          <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/linkedin.svg" alt="linkedin">
         </a>
         <a href="https://github.com/gerwinov" rel="noreferrer nofollow">
-          <img class="h-10 sm:h-8 md:h-10 lg:h-12" src="@/assets/img/icons/github.svg" alt="github">
+          <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/github.svg" alt="github">
         </a>
       </div>
     </div>
 
     <div class="px-8 sm:px-6 md:px-10 mt-12 lg:mt-24 mb-4">
-      <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-oio-black">Werkervaring en opleidingen</h1>
+      <h1 class="text-3xl xl:text-4xl font-bold text-oio-black">Werkervaring en opleidingen</h1>
     </div>
 
     <VueProjectTimeline :projects="projects" />
 
-    <div class="flex flex-wrap-reverse sm:flex-wrap">
-      <div class="flex w-full sm:w-3/5 flex-wrap flex-col">
-        <div class="flex py-8 sm:py-4 md:py-6 lg:py-8 px-8 sm:px-6 md:px-10">
-          <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-oio-black">Vaardigheden</h1>
+    <div class="flex flex-wrap sm:flex-wrap">
+      <div class="flex w-full sm:w-3/5 xl:w-2/3 flex-wrap flex-col">
+        <div class="flex pb-6 pt-12 px-8 sm:px-6 md:px-10">
+          <h1 class="text-3xl xl:text-4xl font-bold text-oio-black">Vaardigheden</h1>
         </div>
-        <div class="flex w-full lg:w-3/4 xl:w-2/3 px-8 sm:px-6 md:px-10 mb-8">
+        <div class="flex w-full lg:w-3/4 xl:w-3/5 px-8 sm:px-6 md:px-10 sm:mb-16">
           <div class="relative h-full w-full">
             <skill-chart></skill-chart>
           </div>
         </div>
       </div>
 
-      <div class="flex w-full sm:w-2/5 flex-wrap flex-col">
-        <div class="flex py-8 sm:py-4 md:py-6 lg:py-8 px-8 sm:px-6 md:px-10">
-          <h1 class="text-2xl md:text-3xl lg:text-4xl xl:text-6xl font-bold text-oio-black">Hobby's</h1>
+      <div class="flex w-full sm:w-2/5 xl:w-1/3 flex-wrap flex-col">
+        <div class="flex pb-6 pt-12 px-8 sm:px-0">
+          <h1 class="text-3xl xl:text-4xl font-bold text-oio-black">Hobby's</h1>
         </div>
         <div class="flex flex-wrap flex-col py-8 sm:py-4 md:py-6 lg:py-8 px-8 sm:px-6 md:px-10 bg-oio-grey flex-grow">
           <div class="flex w-full items-center">
-            <div class="flex">
+            <div class="flex w-1/4 xl:w-1/6 sm:justify-end">
               <img class="h-16" src="@/assets/img/bierenbenzine.png" alt="bier_en_benzine_logo">
             </div>
-            <div class="flex flex-col flex-wrap ml-3">
-              <h3 class="text-white text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">Reizen</h3>
-              <h4 class="text-white text-lg sm:text-sm md:text-md lg:text-lg">Zie <a class="font-oxygen" href="https://bierenbenzine.nl" rel="noreferrer nofollow">bierenbenzine.nl</a></h4>
+            <div class="flex w-3/4 xl:w-5/6 flex-col flex-wrap ml-3">
+              <h3 class="text-white leading-tight text-2xl sm:text-xl lg:text-2xl">Reizen</h3>
+              <h4 class="text-white text-md sm:text-xs lg:text-md">Zie <a class="font-oxygen" href="https://bierenbenzine.nl" rel="noreferrer nofollow">bierenbenzine.nl</a></h4>
             </div>
           </div>
           <div class="flex w-full items-center pt-8">
-            <div class="flex">
+            <div class="flex w-1/4 xl:w-1/6 sm:justify-end">
               <img class="h-16" src="@/assets/img/sport.svg" alt="footbal">
             </div>
-            <div class="flex flex-col flex-wrap ml-3">
-              <h3 class="text-white text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">Sporten</h3>
-              <h4 class="text-white text-lg sm:text-sm md:text-md lg:text-lg">Wielrennen, boksen, hardlopen</h4>
+            <div class="flex w-3/4 xl:w-5/6 flex-col flex-wrap ml-3">
+              <h3 class="text-white leading-tight text-2xl sm:text-xl lg:text-2xl">Sporten</h3>
+              <h4 class="text-white text-md sm:text-xs lg:text-md">Wielrennen, boksen, hardlopen</h4>
             </div>
           </div>
           <div class="flex w-full items-center pt-8">
-            <div class="flex">
+            <div class="flex w-1/4 xl:w-1/6 sm:justify-end">
               <img class="h-16" src="@/assets/img/motorbike.svg" alt="motorbike">
             </div>
-            <div class="flex flex-col flex-wrap ml-3">
-              <h3 class="text-white text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">Motoren</h3>
-              <h4 class="text-white text-lg sm:text-sm md:text-md lg:text-lg">Rijden, sleutelen en er over praten</h4>
+            <div class="flex w-3/4 xl:w-5/6 flex-col flex-wrap ml-3">
+              <h3 class="text-white leading-tight text-2xl sm:text-xl lg:text-2xl">Motoren</h3>
+              <h4 class="text-white text-md sm:text-xs lg:text-md">Rijden, sleutelen en er over praten</h4>
             </div>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="flex justify-center w-full h-16 md:h-32 bg-oio-brown py-4">
+    <div class="flex justify-center items-center w-full h-8 bg-oio-brown">
       <span class="text-white text-sm">&copy; Gerwin Overeem - 2018</span>
     </div>
   </div>
