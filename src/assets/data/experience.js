@@ -46,8 +46,8 @@ export const experience = [
   {
     title: 'Universiteit van Amsterdam',
     subtitle: 'Master - Information Studies (cum laude)',
-    description: `Specialisatie: Business Information Systems //
-                  Masterscriptie: “Effects of SaaS on competencies of brokerages in IT” - cijfer: 9`,
+    description: `<strong>Specialisatie:</strong> Business Information Systems <br>
+                  <strong>Masterscriptie:</strong> “Effects of SaaS on competencies of brokerages in IT” - cijfer: 9`,
     image: `/img/logos/uva.png`,
     startYear: 2011,
     endYear: 2013,
@@ -56,8 +56,8 @@ export const experience = [
   {
     title: 'Vrije Universiteit',
     subtitle: 'Bachelor - Information Studies',
-    description: `Specialisatie: Informatie, Multimedia, Management //
-                  Bachelorproject: “Data gathering and combining for improved quality of advice for NSure, Wageningen” - cijfer: 7,5`,
+    description: `<strong>Specialisatie:</strong> Informatie, Multimedia, Management <br>
+                  <strong>Bachelorproject:</strong> “Data gathering and combining for improved quality of advice for NSure, Wageningen” - cijfer: 7,5`,
     image: `/img/logos/vu.png`,
     startYear: 2007,
     endYear: 2010,
