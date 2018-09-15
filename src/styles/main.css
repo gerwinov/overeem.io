@@ -60,10 +60,14 @@
  * @import "utilities/background-patterns";
  * @import "utilities/skew-transforms";
  */
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   @apply font-sans font-oxygen font-normal
 }
 
-p {
+p, span, a {
   @apply font-sans font-source
+}
+
+a {
+  @apply text-oio-green
 }
