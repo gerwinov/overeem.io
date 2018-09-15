@@ -50,6 +50,7 @@
 
 <script>
   import SkillChart from '@/components/SkillChart'
+  import { skills } from '@/assets/data/skills'
 
   export default {
     name: 'SkillsHobbySection',
@@ -60,18 +61,7 @@
 
     data () {
       return {
-        skills: {
-          datasets: [{
-            data: [10, 20, 30],
-            backgroundColor: ["rgb(255, 99, 132)", "#F7B93A", "blue"]
-          }],
-
-          labels: [
-            'Red',
-            'Yellow',
-            'Blue'
-          ],
-        }
+        skills: skills
       }
     }
   }

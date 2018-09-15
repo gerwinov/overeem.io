@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap-reverse sm:flex-wrap">
     <div class="flex w-full sm:w-3/5 py-8 sm:py-4 md:py-6 lg:py-8 px-8 sm:px-6 md:px-10">
-      <p class="text-xl sm:text-lg lg:text-xl xl:text-2xl font-source font-light italic leading-normal max-w-lg">
+      <p class="text-xl sm:text-lg lg:text-xl xl:text-2xl font-source italic leading-normal max-w-lg">
         “Ik ben een all-round developer. Ik ben analytisch sterk, kan zeer snel nieuwe kennis opdoen en beschik over goede communicatieve vaardigheden. Hierdoor heb ik in veel verschillende projecten een waardevolle bijdrage kunnen leveren. Ik hou van werken aan technisch complexe issues en doe dit het liefst samen met een team.”
       </p>
     </div>

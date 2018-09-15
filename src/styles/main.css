@@ -80,6 +80,10 @@ p, span, a {
   @apply font-sans font-source
 }
 
+p {
+  @apply leading-tight font-light
+}
+
 a {
   @apply text-oio-green
 }
