@@ -22,7 +22,7 @@
           </div>
           <div class="flex w-3/4 xl:w-5/6 flex-col flex-wrap ml-3">
             <h3 class="text-white leading-tight text-2xl sm:text-xl lg:text-2xl">Reizen</h3>
-            <h4 class="text-white text-md sm:text-xs lg:text-md">Zie <a class="font-oxygen" href="https://bierenbenzine.nl" rel="noreferrer nofollow">bierenbenzine.nl</a></h4>
+            <h4 class="text-white text-md sm:text-xs lg:text-md">Zie <a class="font-oxygen" href="https://bierenbenzine.nl" rel="noreferrer nofollow" @click="trackClick">bierenbenzine.nl</a></h4>
           </div>
         </div>
         <div class="flex w-full items-center pt-8">
@@ -62,6 +62,12 @@
     data () {
       return {
         skills: skills
+      }
+    },
+
+    methods: {
+      trackClick () {
+        this.$matomo.trackEvent('Links', 'click', 'bierenbenzine')
       }
     }
   }
