@@ -11,10 +11,6 @@
             <img class="h-8 sm:h-6 md:h-8 lg:h-10 xl:h-10" src="@/assets/img/icons/location.svg" alt="location_marker">
             <h3 class="text-white text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-source ml-6">Amsterdam</h3>
           </div>
-          <div class="flex items-center">
-            <img class="h-8 sm:h-6 md:h-8 lg:h-10 xl:h-10" src="@/assets/img/icons/cake.svg" alt="birthday_cake">
-            <h3 class="text-white text-xl sm:text-lg md:text-xl lg:text-2xl xl:text-3xl font-source ml-5 lg:ml-4">10 december 1989</h3>
-          </div>
         </div>
       </div>
     </div>

@@ -6,18 +6,36 @@
       </p>
     </div>
     <div class="flex self-start justify-around items-center w-full sm:w-2/5 bg-oio-brown py-8 sm:py-4 md:py-6 lg:py-8">
-      <a href="tel:+31611475498">
-        <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/whatsapp.svg" alt="whatsapp">
-      </a>
-      <a href="mailto:gerwin@overeem.io">
-        <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/email.svg" alt="email">
-      </a>
-      <a href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow">
+      <span class="leading-none" v-if="!onlyMail" @click="onlyPhone = !onlyPhone">
+        <img class="h-8 lg:h-10 xl:h-12 cursor-pointer" src="@/assets/img/icons/whatsapp.svg" alt="whatsapp">
+      </span>
+      <span class="text-white max-w-15 sm:max-w-xxs md:max-w-15 font-light text-md sm:text-xs md:text-lg" v-if="onlyPhone">Stuur mij een e-mail om telefonisch in contact te komen</span>
+
+      <span class="leading-none" v-if="!onlyPhone" @click="onlyMail = !onlyMail">
+        <img class="h-8 lg:h-10 xl:h-12 cursor-pointer" src="@/assets/img/icons/email.svg" alt="email">
+      </span>
+      <a class="text-xl text-white no-underline font-light" href="mailto:gerwin@overeem.io" v-if="onlyMail">gerwin@overeem.io</a>
+
+      <a class="leading-none" href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow" v-if="!onlyMail && !onlyPhone">
         <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/linkedin.svg" alt="linkedin">
       </a>
-      <a href="https://github.com/gerwinov" rel="noreferrer nofollow">
+
+      <a class="leading-none" href="https://github.com/gerwinov" rel="noreferrer nofollow" v-if="!onlyMail && !onlyPhone">
         <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/github.svg" alt="github">
       </a>
     </div>
   </div>
 </template>
+
+<script>
+export default {
+  name: 'AboutContactSection',
+
+  data () {
+    return {
+      onlyPhone: false,
+      onlyMail: false
+    }
+  }
+}
+</script>
