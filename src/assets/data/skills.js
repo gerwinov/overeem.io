@@ -9,12 +9,15 @@ export const skills = {
       5,
       3,
       2,
+      3,
       1,
       3,
       2,
       3,
       2,
       5,
+      2,
+      4,
       2
     ],
     backgroundColor: [
@@ -26,13 +29,16 @@ export const skills = {
       '#47B784',
       '#2D3C4D',
       '#1F69BD',
+      '#136AAB',
       '#76AFCA',
       '#016673',
       '#F85142',
       '#EE513B',
       '#2F4858',
       '#FFC1B4',
-      '#FDD231'
+      '#FDD231',
+      '#402E32',
+      '#AB7800'
     ]
   }],
 
@@ -45,12 +51,15 @@ export const skills = {
     'Vue.js',
     'Nuxt',
     'Vuetify',
+    'jQuery',
     'Webpack',
     'PHP',
     'Laravel',
     'Git',
     'DevOps',
     'SCRUM',
-    'Sketch'
+    'Sketch',
+    'Business analyse',
+    'Project management'
   ],
 }

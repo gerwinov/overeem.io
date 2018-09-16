@@ -15,7 +15,9 @@ export const experience = [
     description: `Tijdens mijn studietijd ben ik bij Ebicus gaan werken en ben ik opgeleid tot Oracle CRM en BI Consultant.
                   Ik heb gewerkt aan verschillende opdrachten bij allerlei klanten van Ebicus.
                   Ik was voornamelijk werkzaam als (lead) developer in Oracle Siebel CRM, maar ik ben ook werkzaam geweest
-                  als (solution) analist en projectmanager`,
+                  als (solution) analist en projectmanager <br><br>
+                  Zie <a href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow">LinkedIn</a> voor een
+                  compleet overzicht van al mijn werkervaring bij Ebicus`,
     image: `/img/logos/ebicus.png`,
     startYear: 2010,
     endYear: 2017,
