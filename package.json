@@ -1,6 +1,6 @@
 {
-  "name": "overeem.io",
-  "version": "0.1.0",
+  "name": "Overeem.io",
+  "version": "0.9.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -10,6 +10,7 @@
   "dependencies": {
     "@gerwinov/vue-project-timeline": "^0.2.5",
     "chart.js": "^2.7.2",
+    "register-service-worker": "^1.0.0",
     "tailwindcss": "^0.6.5",
     "vue": "^2.5.17",
     "vue-chartjs": "^3.4.0"
@@ -18,6 +19,7 @@
     "@fullhuman/postcss-purgecss": "^1.0.1",
     "@vue/cli-plugin-babel": "^3.0.3",
     "@vue/cli-plugin-eslint": "^3.0.3",
+    "@vue/cli-plugin-pwa": "^3.0.3",
     "@vue/cli-service": "^3.0.3",
     "postcss-cli": "^6.0.0",
     "postcss-import": "^12.0.0",
