@@ -22,9 +22,10 @@ module.exports = {
       extractors: [
         {
           extractor: TailwindExtractor,
-          extensions: ['vue', 'css']
+          extensions: ['vue', 'css', 'html', 'js']
         },
       ],
+      whitelist: ['body']
     }),
     autoprefixer,
   ],

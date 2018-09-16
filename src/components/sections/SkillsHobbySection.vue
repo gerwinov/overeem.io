@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-wrap sm:flex-wrap">
     <div class="flex w-full sm:w-3/5 xl:w-2/3 flex-wrap flex-col">
-      <div class="flex pb-6 pt-12 px-8 sm:px-6 md:px-10">
-        <h1 class="text-3xl xl:text-4xl font-bold text-oio-black">Vaardigheden en methoden</h1>
+      <div class="flex pb-6 pt-12">
+        <h1 class="text-3xl xl:text-4xl font-bold text-oio-black mx-8 sm:mx-6 md:mx-10">Vaardigheden en methoden</h1>
       </div>
-      <div class="flex w-full lg:w-3/4 xl:w-3/5 px-8 sm:px-6 md:px-10 sm:mb-16">
-        <div class="relative h-full w-full">
+      <div class="flex w-full lg:w-3/4 xl:w-3/5 sm:mb-16">
+        <div class="relative h-full w-full sm:mx-6 md:mx-10 ">
           <skill-chart :skills="skills"></skill-chart>
         </div>
       </div>

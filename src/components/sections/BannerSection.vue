@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap">
-    <div class="flex w-full sm:w-1/2 h-96 lg:h-128 bg-oio-yellow px-8 sm:px-6 md:px-10">
-      <div class="flex flex-col justify-between py-10">
+    <div class="flex w-full sm:w-1/2 h-96 lg:h-128 bg-oio-yellow">
+      <div class="flex flex-col justify-between py-10 mx-8 sm:mx-6 md:mx-10">
         <div>
           <h1 class="text-white text-3xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-7xl font-bold">Gerwin Overeem</h1>
           <h2 class="text-white text-2xl sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl font-source font-light">Frontend developer</h2>
