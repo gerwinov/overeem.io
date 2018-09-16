@@ -13,9 +13,10 @@ export const experience = [
     title: 'Ebicus',
     subtitle: 'Consultant',
     description: `Tijdens mijn studietijd ben ik bij Ebicus gaan werken en ben ik opgeleid tot Oracle CRM en BI Consultant.
-                  Ik heb gewerkt aan verschillende opdrachten bij allerlei klanten van Ebicus.
+                  Ik heb gewerkt aan verschillende opdrachten bij allerlei klanten van Ebicus. Onderstaand twee voorbeelden hiervan.
                   Ik was voornamelijk werkzaam als (lead) developer in Oracle Siebel CRM, maar ik ben ook werkzaam geweest
-                  als (solution) analist en projectmanager <br><br>
+                  als (solution) analist en projectmanager. <br>
+                  Ook was ik bij Ebicus onderdeel van het high-potential programma. <br><br>
                   Zie <a href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow">LinkedIn</a> voor een
                   compleet overzicht van al mijn werkervaring bij Ebicus`,
     image: `/img/logos/ebicus.png`,
@@ -26,7 +27,7 @@ export const experience = [
   {
     title: 'Interpolis',
     subtitle: 'Lead developer',
-    description: `Bij Interpolis heb ik als lead developer meegewerkt aan een upgrade van Siebel. Hierbij was ik o.a.
+    description: `(Via Ebicus) - Bij Interpolis heb ik als lead developer meegewerkt aan een upgrade van Siebel. Hierbij was ik o.a.
                   verantwoordelijk voor het organiseren van workshops met keyusers om de gebruikerservaring van Siebel te verbeteren
                   d.m.v. aanpassingen in het front-end framework van Siebel (Open UI).`,
     image: `/img/logos/interpolis.png`,
@@ -37,7 +38,7 @@ export const experience = [
   {
     title: 'Immigratie- en Naturalisatiedienst',
     subtitle: 'Developer / Analist',
-    description: `Siebel is één van de core-applicaties binnen de IND. Als developer heb ik meegewerkt aan het verder
+    description: `(Via Ebicus) - Siebel is één van de core-applicaties binnen de IND. Als developer heb ik meegewerkt aan het verder
                   uitbouwen van de functionaliteit; o.a. door integraties met andere overheidspartijen en ondersteunen
                   van nieuwe bedrijfsprocessen in Siebel. Ook heb ik bij de IND ervaring opgedaan als teamlead en solution analist.`,
     image: `/img/logos/ind.png`,

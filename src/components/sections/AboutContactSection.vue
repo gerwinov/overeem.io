@@ -5,7 +5,7 @@
         “Ik ben een all-round developer. Ik ben analytisch sterk, kan zeer snel nieuwe kennis opdoen en beschik over goede communicatieve vaardigheden. Hierdoor heb ik in veel verschillende projecten een waardevolle bijdrage kunnen leveren. Ik hou van werken aan technisch complexe issues en doe dit het liefst samen met een team.”
       </p>
     </div>
-    <div class="flex self-start w-full sm:w-2/5 bg-oio-brown">
+    <div class="flex self-start w-full sm:w-2/5 bg-oio-brown" @mouseleave="onlyPhone = onlyMail = false">
       <div class="flex justify-around items-center my-8 sm:my-4 md:my-6 lg:my-8 w-full">
         <span class="leading-none" v-if="!onlyMail" @click="onlyPhone = !onlyPhone">
           <img class="h-8 lg:h-10 xl:h-12 cursor-pointer" src="@/assets/img/icons/whatsapp.svg" alt="whatsapp">
