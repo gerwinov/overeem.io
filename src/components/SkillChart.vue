@@ -1,8 +1,11 @@
 <script>
 import { PolarArea } from 'vue-chartjs'
+import inViewport from 'vue-in-viewport-mixin'
 
 export default {
   extends: PolarArea,
+
+  mixins: [inViewport],
 
   props: {
     skills: {
@@ -13,6 +16,7 @@ export default {
 
   data () {
     return {
+      chartRendered: false,
       options: {
         maintainAspectRatio: false,
         legend: {
@@ -28,6 +32,15 @@ export default {
           xPadding: 10,
           yPadding: 10
         }
+      }
+    }
+  },
+
+  watch: {
+    'inViewport.fully': function(visible) {
+      if (visible && !this.chartRendered) {
+        this.renderChart(this.skills, this.options)
+        this.chartRendered = true
       }
     }
   },
