@@ -1,21 +1,3 @@
-# overeem.io
+# Overeem.io
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
+This is the repo for my personal website. Find it at [overeem.io](https://overeem.io)
