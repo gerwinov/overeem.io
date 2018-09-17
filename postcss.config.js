@@ -25,7 +25,7 @@ module.exports = {
           extensions: ['vue', 'css', 'html', 'js']
         },
       ],
-      whitelist: ['body']
+      whitelist: ['body', 'vue-project-timeline']
     }),
     autoprefixer,
   ],
