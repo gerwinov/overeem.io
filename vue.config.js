@@ -4,6 +4,6 @@ module.exports = {
     msTileColor: '#ffffff'
   },
   baseUrl: process.env.NODE_ENV === 'production'
-    ? './overeem.io/'
+    ? '/overeem.io/'
     : '/'
 }
