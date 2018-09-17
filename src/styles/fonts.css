@@ -4,9 +4,9 @@
   font-style: normal;
   font-weight: 300;
   src: local('Oxygen Light'), local('Oxygen-Light'),
-       url('/fonts/Oxygen-Light.woff2') format('woff2'),
-       url('/fonts/Oxygen-Light.woff') format('woff'),
-       url('/fonts/Oxygen-Light.ttf') format('truetype');
+       url('~@/assets/fonts/Oxygen-Light.woff2') format('woff2'),
+       url('~@/assets//fonts/Oxygen-Light.woff') format('woff'),
+       url('~@/assets//fonts/Oxygen-Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -15,9 +15,9 @@
   font-style: normal;
   font-weight: 400;
   src: local('Oxygen Regular'), local('Oxygen-Regular'),
-       url('/fonts/Oxygen-Regular.woff2') format('woff2'),
-       url('/fonts/Oxygen-Regular.woff') format('woff'),
-       url('/fonts/Oxygen-Regular.ttf') format('truetype');
+       url('~@/assets/fonts/Oxygen-Regular.woff2') format('woff2'),
+       url('~@/assets/fonts/Oxygen-Regular.woff') format('woff'),
+       url('~@/assets/fonts/Oxygen-Regular.ttf') format('truetype');
 }
 
 @font-face {
@@ -26,9 +26,9 @@
   font-style: normal;
   font-weight: 700;
   src: local('Oxygen Bold'), local('Oxygen-Bold'),
-       url('/fonts/Oxygen-Bold.woff2') format('woff2'),
-       url('/fonts/Oxygen-Bold.woff') format('woff'),
-       url('/fonts/Oxygen-Bold.ttf') format('truetype');
+       url('~@/assets/fonts/Oxygen-Bold.woff2') format('woff2'),
+       url('~@/assets/fonts/Oxygen-Bold.woff') format('woff'),
+       url('~@/assets/fonts/Oxygen-Bold.ttf') format('truetype');
 }
 
 @font-face {
@@ -37,9 +37,9 @@
   font-style: normal;
   font-weight: 300;
   src: local('Source Sans Pro Light'), local('SourceSansPro-Light'),
-       url('/fonts/SourceSansPro-Light.woff2') format('woff2'),
-       url('/fonts/SourceSansPro-Light.woff') format('woff'),
-       url('/fonts/SourceSansPro-Light.ttf') format('truetype');
+       url('~@/assets/fonts/SourceSansPro-Light.woff2') format('woff2'),
+       url('~@/assets/fonts/SourceSansPro-Light.woff') format('woff'),
+       url('~@/assets/fonts/SourceSansPro-Light.ttf') format('truetype');
 }
 
 @font-face {
@@ -48,9 +48,9 @@
   font-style: italic;
   font-weight: 300;
   src: local('Source Sans Pro Light Italic'), local('SourceSansPro-LightIt'),
-        url('/fonts/SourceSansPro-LightItalic.woff2') format('woff2'),
-       url('/fonts/SourceSansPro-LightItalic.woff') format('woff'),
-       url('/fonts/SourceSansPro-LightItalic.ttf') format('truetype');
+       url('~@/assets/fonts/SourceSansPro-LightItalic.woff2') format('woff2'),
+       url('~@/assets/fonts/SourceSansPro-LightItalic.woff') format('woff'),
+       url('~@/assets/fonts/SourceSansPro-LightItalic.ttf') format('truetype');
 }
 
 @font-face {
@@ -59,7 +59,7 @@
   font-style: normal;
   font-weight: 400;
   src: local('Source Sans Pro'), local('SourceSansPro-Regular'),
-       url('/fonts/SourceSansPro-Regular.woff2') format('woff2'),
-       url('/fonts/SourceSansPro-Regular.woff') format('woff'),
-       url('/fonts/SourceSansPro-Regular.ttf') format('truetype');
+       url('~@/assets/fonts/SourceSansPro-Regular.woff2') format('woff2'),
+       url('~@/assets/fonts/SourceSansPro-Regular.woff') format('woff'),
+       url('~@/assets/fonts/SourceSansPro-Regular.ttf') format('truetype');
 }
