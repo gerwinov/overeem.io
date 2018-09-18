@@ -47,8 +47,9 @@ let colors = {
   'oio-yellow': '#F7B93A',
   'oio-brown': '#B6A999',
   'oio-black': '#333333',
-  'oio-grey': "#99B0A8",
-  'oio-green': "#00E2AC",
+  'oio-grey': '#99B0A8',
+  'oio-green': '#00E2AC',
+  'oio-blue': '#2F4858',
 
   'transparent': 'transparent',
 

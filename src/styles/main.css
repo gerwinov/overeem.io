@@ -73,7 +73,7 @@ p {
 }
 
 a {
-  @apply text-oio-green
+  @apply text-oio-blue no-underline
 }
 
 #vue-project-timeline h1 {

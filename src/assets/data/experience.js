@@ -17,7 +17,7 @@ export const experience = [
                   Ik was voornamelijk werkzaam als (lead) developer in Oracle Siebel CRM, maar ik ben ook werkzaam geweest
                   als (solution) analist en projectmanager. <br>
                   Ook was ik bij Ebicus onderdeel van het high-potential programma. <br><br>
-                  Zie <a href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow">LinkedIn</a> voor een
+                  Zie <a href="https://www.linkedin.com/in/gerwinovereem" target="_blank" rel="noreferrer nofollow">LinkedIn</a> voor een
                   compleet overzicht van al mijn werkervaring bij Ebicus`,
     image: `img/logos/ebicus.png`,
     startYear: 2010,
