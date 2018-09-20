@@ -10,7 +10,8 @@ module.exports = {
       }
     }
   },
-  baseUrl: process.env.NODE_ENV === 'production'
-    ? '/overeem.io/'
-    : '/'
+  // Used for GitHub Pages.
+  // baseUrl: process.env.NODE_ENV === 'production'
+  //   ? '/overeem.io/'
+  //   : '/'
 }
