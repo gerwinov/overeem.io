@@ -1,5 +1,14 @@
 export const experience = [
   {
+    title: 'Overeem.io',
+    subtitle: 'Frontend developer',
+    description: `Frontend development / Vue.js freelancer.`,
+    image: `img/logos/overeemio.png`,
+    startYear: 2018,
+    endYear: null,
+    color: '#f7b93a'
+  },
+  {
     title: 'Foryard',
     subtitle: 'Frontend developer',
     description: `Foryard is een software innovatie lab met als doel haar klanten te helpen innoveren met behulp van software.
