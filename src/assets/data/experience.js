@@ -11,8 +11,9 @@ export const experience = [
   {
     title: 'Foryard',
     subtitle: 'Frontend developer',
-    description: `Foryard is een software innovatie lab met als doel haar klanten te helpen innoveren met behulp van software.
-                  Ik heb hier gewerkt aan verschillende prototypes, mvp's en producten, met name in de rol van frontend developer.`,
+    description: `Foryard is een software innovatielab. Ik heb hier gewerkt aan prototypes, mvp's en een eigen platform in de rol van
+                  frontend developer, steeds met Vue.js. <br><br>
+                  <i>Technieken/methodes: HTML, CSS, JavaScript, Vue.js, Nuxt, Bootstrap, Bulma, Tailwind, Sass, jQuery, SCRUM</i>`,
     image: `img/logos/foryard.png`,
     startYear: 2017,
     endYear: 2018,
@@ -20,12 +21,13 @@ export const experience = [
   },
   {
     title: 'Ebicus',
-    subtitle: 'Consultant',
-    description: `Tijdens mijn studietijd ben ik bij Ebicus gaan werken en ben ik opgeleid tot Oracle CRM en BI Consultant.
-                  Ik heb gewerkt aan verschillende opdrachten bij allerlei klanten van Ebicus. Onderstaand twee voorbeelden hiervan.
-                  Ik was voornamelijk werkzaam als (lead) developer in Oracle Siebel CRM, maar ik ben ook werkzaam geweest
-                  als (solution) analist en projectmanager. <br>
-                  Ook was ik bij Ebicus onderdeel van het high-potential programma. <br><br>
+    subtitle: 'Frontend developer / Consultant',
+    description: `Bij Ebicus ben ik opgeleid tot Oracle CRM en BI Consultant. Ik heb gewerkt aan verschillende opdrachten bij allerlei
+                  klanten van Ebicus. Ik was voornamelijk werkzaam als (lead) developer in Oracle Siebel CRM, maar ik ben ook werkzaam
+                  geweest als (solution) analist en projectmanager. <br>
+                  In mijn laatste jaar bij Ebicus ben ik mij uitsluitend gaan richten op frontend development. <br>
+                  Ik was bij Ebicus onderdeel van het high-potential programma. <br><br>
+                  <i>Technieken/methodes: HTML, CSS, JavaScript, jQuery, Vue.js, SCRUM, Project management</i> <br><br>
                   Zie <a href="https://www.linkedin.com/in/gerwinovereem" target="_blank" rel="noreferrer nofollow">LinkedIn</a> voor een
                   compleet overzicht van al mijn werkervaring bij Ebicus`,
     image: `img/logos/ebicus.png`,
@@ -34,22 +36,23 @@ export const experience = [
     color: '#007cc2'
   },
   {
-    title: 'Interpolis',
-    subtitle: 'Lead developer',
-    description: `(Via Ebicus) - Bij Interpolis heb ik als lead developer meegewerkt aan een upgrade van Siebel. Hierbij was ik o.a.
-                  verantwoordelijk voor het organiseren van workshops met keyusers om de gebruikerservaring van Siebel te verbeteren
-                  d.m.v. aanpassingen in het front-end framework van Siebel (Open UI).`,
+    title: 'Interpolis (via Ebicus)',
+    subtitle: 'Frontend developer',
+    description: `Bij Interpolis was ik verantwoordelijk voor het organiseren van workshops met keyusers om de gebruikerservaring van Siebel
+                  te verbeteren d.m.v. aanpassingen in het frontend framework van Siebel (Open UI) n.a.v. een pakketupgrade. <br><br>
+                  <i>Technieken: HTML, CSS, JavaScript, jQuery</i>`,
     image: `img/logos/interpolis.png`,
     startYear: 2017,
     endYear: 2017,
     color: '#0099a1'
   },
   {
-    title: 'Immigratie- en Naturalisatiedienst',
+    title: 'Immigratie- en Naturalisatiedienst (via Ebicus)',
     subtitle: 'Developer / Analist',
-    description: `(Via Ebicus) - Siebel is één van de core-applicaties binnen de IND. Als developer heb ik meegewerkt aan het verder
-                  uitbouwen van de functionaliteit; o.a. door integraties met andere overheidspartijen en ondersteunen
-                  van nieuwe bedrijfsprocessen in Siebel. Ook heb ik bij de IND ervaring opgedaan als teamlead en solution analist.`,
+    description: `Siebel is één van de core-applicaties binnen de IND. Als developer heb ik meegewerkt aan het verder uitbouwen van de
+                  functionaliteit; o.a. door integraties met andere overheidspartijen en ondersteunen van nieuwe bedrijfsprocessen in Siebel. <br>
+                  Ook heb ik bij de IND ervaring opgedaan als teamlead en (solution) analist. <br><br>
+                  <i>Technieken/methodes: JavaScript, SCRUM</i>`,
     image: `img/logos/ind.png`,
     startYear: 2014,
     endYear: 2017,
