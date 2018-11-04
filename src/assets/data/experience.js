@@ -9,6 +9,17 @@ export const experience = [
     color: '#f7b93a'
   },
   {
+    title: 'VodafoneZiggo (via Overeem.io)',
+    subtitle: 'Frontend developer',
+    description: `Bij VodafoneZiggo zit ik in een team dat werkt aan de website van Ziggo. Dit betreft wijzigingen aan de bestaande website en ook de
+                  bouw van frontend componenten voor een nieuwe versie hiervan.<br><br>
+                  <i>Technieken: HTML, CSS, JavaScript, Vue.js, jQuery, Bootstrap, Sass, SCRUM</i>`,
+    image: `img/logos/vodafoneziggo.png`,
+    startYear: 2018,
+    endYear: null,
+    color: '#e60000'
+  },
+  {
     title: 'Foryard',
     subtitle: 'Frontend developer',
     description: `Foryard is een software innovatielab. Ik heb hier gewerkt aan prototypes, mvp's en een eigen platform in de rol van
