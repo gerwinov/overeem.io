@@ -15,8 +15,7 @@
     "tailwindcss": "^0.6.5",
     "vue": "^2.5.17",
     "vue-chartjs": "^3.4.0",
-    "vue-in-viewport-mixin": "^1.0.4",
-    "vue-matomo": "^0.1.10"
+    "vue-in-viewport-mixin": "^1.0.4"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^1.0.1",

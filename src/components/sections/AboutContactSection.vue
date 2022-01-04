@@ -17,11 +17,11 @@
         </span>
         <a class="text-xl text-white no-underline font-light" href="mailto:gerwin@overeem.io" v-if="onlyMail">gerwin@overeem.io</a>
 
-        <a class="leading-none" href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow" target="_blank" v-if="!onlyMail && !onlyPhone" @click="trackClick('linkedin')">
+        <a class="leading-none" href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow" target="_blank" v-if="!onlyMail && !onlyPhone">
           <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/linkedin.svg" alt="linkedin">
         </a>
 
-        <a class="leading-none" href="https://github.com/gerwinov" rel="noreferrer nofollow" target="_blank" v-if="!onlyMail && !onlyPhone" @click="trackClick('github')">
+        <a class="leading-none" href="https://github.com/gerwinov" rel="noreferrer nofollow" target="_blank" v-if="!onlyMail && !onlyPhone">
           <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/github.svg" alt="github">
         </a>
       </div>
@@ -43,17 +43,11 @@ export default {
   methods: {
     clickPhone () {
       this.onlyPhone = !this.onlyPhone
-      if(this.onlyPhone) this.trackClick('phone')
     },
 
     clickMail () {
       this.onlyMail = !this.onlyMail
-      if(this.onlyMail) this.trackClick('mail')
     },
-
-    trackClick (channel) {
-      this.$matomo.trackEvent('Contact', 'click', channel)
-    }
   }
 }
 </script>
