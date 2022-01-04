@@ -9,7 +9,7 @@
     <skills-hobby-section />
 
     <div class="flex justify-center items-center w-full h-8 bg-oio-brown">
-      <span class="text-white text-sm">&copy; Gerwin Overeem - 2018</span>
+      <span class="text-white text-sm">&copy; Gerwin Overeem</span>
     </div>
   </div>
 </template>
