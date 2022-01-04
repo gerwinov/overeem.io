@@ -23,7 +23,7 @@ export const experience = [
                   <i>Tools/methods: HTML, CSS, JavaScript, Vue.js, React, Sass, AWS, Jenkins, AEM, Optimizely, CRO, SCRUM</i>`,
     image: `img/logos/vodafoneziggo.png`,
     startYear: 2018,
-    endYear: null,
+    endYear: 2021,
     color: '#e60000'
   },
   {
