@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="px-8 sm:px-6 md:px-10 mt-12 lg:mt-24 mb-4">
+    <div class="px-8 sm:px-6 md:px-10 mt-24 lg:mt-32 mb-4">
       <h1 class="text-3xl xl:text-4xl font-bold text-oio-black">Werkervaring en opleidingen</h1>
     </div>
 

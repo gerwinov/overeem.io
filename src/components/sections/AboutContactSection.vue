@@ -2,27 +2,16 @@
   <div class="flex flex-wrap-reverse sm:flex-wrap">
     <div class="flex w-full sm:w-3/5">
       <p class="text-xl sm:text-lg lg:text-xl xl:text-2xl font-source italic leading-normal max-w-lg my-8 sm:my-4 md:my-6 lg:my-8 mx-8 sm:mx-6 md:mx-10">
-        “Ik ben een all-round developer. Ik ben analytisch sterk, kan zeer snel nieuwe kennis opdoen en beschik over goede communicatieve vaardigheden. Hierdoor heb ik in veel verschillende projecten een waardevolle bijdrage kunnen leveren. Ik hou van werken aan technisch uitdagende projecten en doe dit het liefst samen met een team.”
+        “I am an all-round developer who is not just technically skilled, but I also have an analytical mind, I'm a fast learner and have excellent communication skills. Therefore I reside best in an agile environment working in a multidisciplinary team.”
       </p>
     </div>
-    <div class="flex self-start w-full sm:w-2/5 bg-oio-brown" @mouseleave="onlyPhone = onlyMail = false">
+    <div class="flex self-start w-full sm:w-2/5 bg-oio-brown">
       <div class="flex justify-around items-center my-8 sm:my-4 md:my-6 lg:my-8 w-full">
-        <span class="leading-none" v-if="!onlyMail" @click="clickPhone">
-          <img class="h-8 lg:h-10 xl:h-12 cursor-pointer" src="@/assets/img/icons/whatsapp.svg" alt="whatsapp">
-        </span>
-        <span class="text-white max-w-15 sm:max-w-xxs md:max-w-15 font-light text-md sm:text-xs md:text-lg" v-if="onlyPhone">Stuur mij een e-mail om telefonisch in contact te komen</span>
-
-        <span class="leading-none" v-if="!onlyPhone" @click="clickMail">
-          <img class="h-8 lg:h-10 xl:h-12 cursor-pointer" src="@/assets/img/icons/email.svg" alt="email">
-        </span>
-        <a class="text-xl text-white no-underline font-light" href="mailto:gerwin@overeem.io" v-if="onlyMail">gerwin@overeem.io</a>
-
-        <a class="leading-none" href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow" target="_blank" v-if="!onlyMail && !onlyPhone">
-          <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/linkedin.svg" alt="linkedin">
+        <a class="leading-none" href="mailto:gerwin@overeem.io">
+          <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/email.svg" alt="linkedin">
         </a>
-
-        <a class="leading-none" href="https://github.com/gerwinov" rel="noreferrer nofollow" target="_blank" v-if="!onlyMail && !onlyPhone">
-          <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/github.svg" alt="github">
+        <a class="leading-none" href="https://www.linkedin.com/in/gerwinovereem" rel="noreferrer nofollow" target="_blank">
+          <img class="h-8 lg:h-10 xl:h-12" src="@/assets/img/icons/linkedin.svg" alt="linkedin">
         </a>
       </div>
     </div>
@@ -32,22 +21,5 @@
 <script>
 export default {
   name: 'AboutContactSection',
-
-  data () {
-    return {
-      onlyPhone: false,
-      onlyMail: false
-    }
-  },
-
-  methods: {
-    clickPhone () {
-      this.onlyPhone = !this.onlyPhone
-    },
-
-    clickMail () {
-      this.onlyMail = !this.onlyMail
-    },
-  }
 }
 </script>
