@@ -9,6 +9,19 @@ export const experience = [
     color: '#f7b93a'
   },
   {
+    title: 'ANWB (freelance)',
+    subtitle: 'Frontend developer',
+    description: `My team at ANWB is responsible for digital sales and the online journey of the roadside assistance products (e.g. “Wegenwacht”).
+                  I am involved in maintaining the current React/TypeScript applications that support this and building A/B-tests for this journey.
+                  Next to this I am also in a project to create a new application structure for all frontend related matter for this team.
+                  <br><br>
+                  <i>Tools/methods: HTML, CSS, JavaScript, React, TypeScript, Styled components, Jest, Cypress, Gitlab CI/CD, Optimizely, CRO, SCRUM</i>`,
+    image: `img/logos/anwb.png`,
+    startYear: 2022,
+    endYear: null,
+    color: '#0096db'
+  },
+  {
     title: 'VodafoneZiggo (freelance)',
     subtitle: 'Frontend developer',
     description: `At VodafoneZiggo I was part of the team responsible for the B2C salespages of the Ziggo website, built with Vue. As part of this team I was responsible for a great variety of    A/B-tests (with Optimizely), website optimizations as well as the launch of several nationwide marketing campaigns on the website by building custom solutions for these.
