@@ -12,8 +12,8 @@ export const experience = [
     title: 'ANWB (freelance)',
     subtitle: 'Frontend developer',
     description: `My team at ANWB is responsible for digital sales and the online journey of the roadside assistance products (e.g. “Wegenwacht”).
-                  I am involved in maintaining the current React/TypeScript applications that support this and building A/B-tests for this journey.
-                  Next to this I am also in a project to create a new application structure for all frontend related matter for this team.
+                  I am involved in maintaining the current React/TypeScript applications and building A/B-tests for this journey.
+                  Next to this, I am involved a project to create a new application structure for all frontend-related matter for our team.
                   <br><br>
                   <i>Tools/methods: HTML, CSS, JavaScript, React, TypeScript, Styled components, Jest, Cypress, Gitlab CI/CD, Optimizely, CRO, SCRUM</i>`,
     image: `img/logos/anwb.png`,
