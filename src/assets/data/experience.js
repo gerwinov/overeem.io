@@ -33,7 +33,7 @@ export const experience = [
                   <br><br>
                   I was also part of the team involved in the introduction of VodafoneZiggo Priority, built with React. In this project I was responsible for embedding the delivery of various partners in the VodafoneZiggo architecture and applications. I also developed part of the solution.
                   <br><br>
-                  <i>Tools/methods: HTML, CSS, JavaScript, Vue.js, React, Sass, AWS, Jenkins, AEM, Optimizely, CRO, SCRUM</i>`,
+                  <i>Tools/methods: HTML, CSS, JavaScript, Vue.js, React, Sass, Karma/Jasmine, NestJS, AWS, Jenkins, AEM, Optimizely, CRO, SCRUM</i>`,
     image: `img/logos/vodafoneziggo.png`,
     startYear: 2018,
     endYear: 2021,
