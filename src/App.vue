@@ -1,7 +1,6 @@
 <template>
   <div id="app" >
     <banner-section />
-
     <about-contact-section />
   </div>
 </template>
